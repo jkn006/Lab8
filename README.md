@@ -15,3 +15,4 @@
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
     In the callback, we could use the page click function in order to click onto the settings button to navigate to the settings page of our web app. In this case, we would pass the selector for the settings button to the click function so that the test will automatically click onto the settings button which should redirect the beginning of each test to the settings page.
+
